@@ -71,7 +71,28 @@ body {
   display: none;
 }
 
+@media (min-width: 800px) {
+  .masthead__images {
+    display: block;
+  }
 
+  .masthead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .masthead__iphone--transfer > img:nth-of-type(1) {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .masthead__iphone--transfer > img:nth-of-type(2) {
+    position: absolute;
+    top: 62px;
+    left: 46rem;
+  }
+  }
 
 
 
