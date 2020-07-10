@@ -3,12 +3,16 @@ body {
   margin: 0;
 }
 
+/* A block of interface rule which contains the header font which is bold. */
+
 @font-face {
   font-family: Lato;
   src: url("../fonts/Lato-Bold.woff") format(woff),
        url("../fonts/Lato-Bold.woff2") format(woff2);
   font-weight: 700;
 }
+
+/* A block of interface rule which contains the paragraph font which is regular. */
 
 @font-face {
   font-family: Lato;
@@ -43,7 +47,7 @@ body {
   margin-block-end: 0;
 }
 
-.masthead__sports--icon {
+.masthead__sports--logo {
   margin-block-start: 40px;
 }
 
@@ -70,6 +74,9 @@ body {
 .masthead__images {
   display: none;
 }
+
+
+/* Media query for the page to work nicely in a desktop*/
 
 @media (min-width: 800px) {
   .masthead__images {
