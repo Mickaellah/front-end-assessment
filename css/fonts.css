@@ -1,0 +1,21 @@
+/* A block of interface rule which contains the header font which is bold. */
+
+@font-face {
+  font-family: "Lato";
+  /* src: url("../fonts/Lato-Bold.woff") format(woff),
+       url("../fonts/Lato-Bold.woff2") format(woff2); */
+  src: local('Lato Bold'),
+       local('Lato-Bold');
+  font-weight: 700;
+}
+
+/* A block of interface rule which contains the paragraph font which is regular. */
+
+@font-face {
+  font-family: 'Lato';
+  /* src: url("../fonts/Lato-Regular.woff") format(woff),
+       url("../fonts/Lato-Regular.woff2") format(woff2); */
+  src: local('Lato Regular'),
+       local('Lato-Regular');
+  font-weight: 400;
+}
