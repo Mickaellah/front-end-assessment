@@ -4,7 +4,7 @@
   "description": "A mockup-to-website example to be used as an assessment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "node-sass scss/index.scss -o webroot/css"
   },
   "repository": {
     "type": "git",

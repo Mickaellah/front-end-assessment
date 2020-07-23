@@ -1,4 +1,4 @@
-@import "masthead.css";
-@import "fonts.css";
-@import "desktop.css";
-@import "default.css";
+@import url(masthead.css);
+@import url(fonts.css);
+@import url(desktop.css);
+@import url(default.css);
