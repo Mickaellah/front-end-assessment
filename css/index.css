@@ -1,4 +1,89 @@
-@import url(masthead.css);
-@import url(fonts.css);
-@import url(desktop.css);
-@import url(default.css);
+.masthead {
+  margin: 0;
+  background-color: #f4f6f9; }
+
+.masthead__container {
+  margin-inline-start: 20px;
+  margin-inline-end: 20px; }
+
+.masthead__heading--container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; }
+
+.masthead__heading {
+  font-family: "Lato", 'Segoe UI', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+  margin-block-start: 52px;
+  margin-block-end: 0; }
+
+.masthead__sports--logo {
+  margin-block-start: 40px; }
+
+.masthead__description {
+  font-family: "Lato", 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4f4f4f;
+  margin-block-start: 33px;
+  margin-block-end: 0; }
+
+.masthead__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 56px;
+  padding-block-end: 59px; }
+
+.masthead__images {
+  display: none; }
+
+/* A block of interface rule which contains the header font which is bold. */
+@font-face {
+  font-family: "Lato";
+  /* src: url("../fonts/Lato-Bold.woff") format(woff),
+       url("../fonts/Lato-Bold.woff2") format(woff2); */
+  src: local("Lato Bold"), local("Lato-Bold");
+  font-weight: 700; }
+
+/* A block of interface rule which contains the paragraph font which is regular. */
+@font-face {
+  font-family: 'Lato';
+  /* src: url("../fonts/Lato-Regular.woff") format(woff),
+       url("../fonts/Lato-Regular.woff2") format(woff2); */
+  src: local("Lato Regular"), local("Lato-Regular");
+  font-weight: 400; }
+
+/* Media query for the page to work nicely in a desktop*/
+@media (min-width: 800px) {
+  .masthead__images {
+    display: block; }
+  .masthead {
+    display: flex;
+    flex-direction: row; }
+  .masthead__container {
+    padding-inline-start: 163px;
+    text-align: left; }
+  .masthead__heading--container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start; }
+  .masthead__heading {
+    text-align: start;
+    margin-block-start: 133px; }
+  .masthead__description {
+    text-align: start; }
+  .masthead__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-block-end: 164px; }
+  .masthead__googleplay {
+    margin-inline-start: 36px; } }
+
+body {
+  margin: 0; }
