@@ -4,7 +4,8 @@
   "description": "A mockup-to-website example to be used as an assessment",
   "main": "index.js",
   "scripts": {
-    "css": "node-sass scss/index.scss -o webroot/css"
+    "css": "node-sass scss/index.scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
   },
   "repository": {
     "type": "git",
