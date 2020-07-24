@@ -91,7 +91,9 @@ body {
 .section_user_friendly {
   text-align: center;
   margin: 0;
-  font-family: "Lato", 'Segoe UI', sans-serif; }
+  font-family: "Lato", 'Segoe UI', sans-serif;
+
+}
 
 .section_user_friendly__header {
   display: flex;
