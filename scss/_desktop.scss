@@ -8,11 +8,16 @@
   .masthead {
     display: flex;
     flex-direction: row;
+    background-image: url("../img/iphones-icon.png");
+    background-repeat: no-repeat;
+    background-position: 596px 90%;
+    background-size: contain;
   }
 
   .masthead__container {
     padding-inline-start: 163px;
     text-align: left;
+    width: 596px;
   }
 
   .masthead__heading--container {
