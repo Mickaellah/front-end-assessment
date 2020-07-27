@@ -87,3 +87,39 @@
 
 body {
   margin: 0; }
+
+.section_user_friendly {
+  text-align: center;
+  margin: 0;
+  font-family: "Lato", 'Segoe UI', sans-serif; }
+
+.section_user_friendly__header {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 20px; }
+
+.section_user_friendly__heading {
+  color: #333333;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px; }
+
+.section_user_friendly__category {
+  color: skyblue;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  margin-block-start: 55px; }
+
+.section_user_friendly__description {
+  color: #4F4F4F;
+  font-size: 16px;
+  margin: 20px; }
+
+.section_user_friendly__link--learn-more {
+  color: skyblue;
+  font-size: 16px;
+  font-weight: bold;
+  margin-block-start: 25px;
+  text-decoration: none; }

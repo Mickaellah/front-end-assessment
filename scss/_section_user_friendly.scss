@@ -1,0 +1,43 @@
+.section_user_friendly {
+  text-align: center;
+  margin: 0;
+  font-family: "Lato", 'Segoe UI', sans-serif;
+}
+
+
+.section_user_friendly__header {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: $margin;
+
+}
+
+.section_user_friendly__heading {
+  color: $color-heading;
+  font-size: $heading-font-size;
+  font-weight: bold;
+  margin: $margin;
+}
+
+.section_user_friendly__category {
+  color: $color-category;
+  font-size: $normal-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: $margin;
+  margin-block-start: 55px;
+}
+
+.section_user_friendly__description {
+  color: $color-normal-text;
+  font-size: $normal-font-size;
+  margin: $margin;
+}
+
+.section_user_friendly__link--learn-more {
+  color: $color-category;
+  font-size: $normal-font-size;
+  font-weight: bold;
+  margin-block-start: 25px;
+  text-decoration: none;
+}
