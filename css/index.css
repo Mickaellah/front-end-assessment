@@ -180,3 +180,40 @@ nav > ul {
   background-image: url("../img/icon_graph_blue.svg");
   background-repeat: no-repeat;
   background-position: 50% 0; }
+
+.section_images__navigation--container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.section_images__list_item {
+  text-align: center;
+  margin-block-start: 44px; }
+
+.section_images__list_item--sports-tv {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin-inline-start: 20px; }
+
+.section_images__list_item--sports-channel {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  margin-inline-end: -5px;
+  margin-block-start: 55px; }
+
+.section_images__list_item--nbc-sports {
+  grid-column: 1 / 2;
+  grid-row: 2; }
+
+.section_images__list_item--technology {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  margin-inline-start: -5px;
+  margin-block-start: 55px; }
+
+.section_images__list_item--news {
+  grid-column: 3 / 4;
+  grid-row: 2; }
+
+.section_images__list_item--sky-sports {
+  grid-column: 1 / 4;
+  grid-row: 3; }
