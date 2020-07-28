@@ -59,25 +59,26 @@
   font-weight: 400; }
 
 /* Media query for the page to work nicely in a desktop*/
-@media (min-width: 800px) {
+@media (min-width: 1025px) {
   .masthead__images {
     display: block; }
   .masthead {
     background-image: url("../img/iphones-icon.png");
     background-repeat: no-repeat;
-    background-position: 596px 90%;
+    background-position: 100% 0;
     background-size: contain; }
   .masthead__container {
-    padding-inline-start: 163px;
-    text-align: left;
-    width: 596px; }
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .masthead__header--container {
+    max-width: 546px; }
   .masthead__heading--container {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start; }
   .masthead__heading {
-    text-align: start;
-    margin-block-start: 133px; }
+    text-align: start; }
   .masthead__description {
     text-align: start; }
   .masthead__icons {
