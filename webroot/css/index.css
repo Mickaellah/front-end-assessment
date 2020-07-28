@@ -90,12 +90,30 @@
     margin-inline-start: 36px; } }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "Lato", 'Segoe UI', sans-serif; }
+
+h2 {
+  text-align: center; }
+
+nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  margin-block-start: 32px;
+  margin-inline-start: 25px;
+  margin-inline-end: 24px;
+  text-align: center; }
 
 .section_user_friendly {
   text-align: center;
   margin: 0;
-  font-family: "Lato", 'Segoe UI', sans-serif; }
+  font-family: "Lato", 'Segoe UI', sans-serif;
+  background-image: url("../img/bg_friendly_user_interface-small.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%; }
 
 .section_user_friendly__header {
   display: flex;
