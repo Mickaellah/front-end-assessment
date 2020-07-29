@@ -36,7 +36,9 @@
   color: $color-normal-text;
   font-size: $normal-font-size;
   margin: $margin;
+
 }
+
 
 
 .section_user_friendly__link--learn-more {
@@ -45,4 +47,8 @@
   font-weight: bold;
   margin-block-start: 25px;
   text-decoration: none;
+}
+
+.section_images__list_item--sky-sports {
+  padding-block-end: 71px;
 }
