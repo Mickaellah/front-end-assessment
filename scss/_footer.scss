@@ -1,0 +1,37 @@
+.footer {
+  background-color: #00ADEE;
+}
+
+.footer__main_image {
+  padding-block-start: 41px;
+}
+
+
+.footer__list_item {
+  display: inline;
+}
+
+.footer__navigation--container {
+  padding-block-start: 11px;
+}
+
+.footer__main_image {
+  margin-inline-start: 20px;
+}
+
+.footer__list_item {
+  margin-inline-start: 20px;
+}
+
+.footer__navigation_link--container > li > a {
+  color: white;
+}
+
+.footer__navigation_link--container {
+  display: flex;
+  justify-content: space-between;
+  padding-block-start: 34px;
+  padding-block-end: 45px;
+  margin-inline-end: 20px;
+}
+
