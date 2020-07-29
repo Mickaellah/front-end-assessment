@@ -94,12 +94,16 @@ body {
   font-family: "Lato", 'Segoe UI', sans-serif; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 nav > ul {
   list-style: none;
   margin: 0;
   padding: 0; }
+
+a {
+  text-decoration: none; }
 
 .section_user_friendly {
   text-align: center;
@@ -140,9 +144,16 @@ nav > ul {
   margin-block-start: 25px;
   text-decoration: none; }
 
+.section_images__list_item--sky-sports {
+  padding-block-end: 71px; }
+
+.features {
+  background-color: #FAFAFA; }
+
 .features__heading {
   padding-block-end: 52px;
-  margin: 0; }
+  margin: 0;
+  padding-block-start: 42px; }
 
 .features__list_item {
   padding-block-start: 48px;
@@ -181,6 +192,9 @@ nav > ul {
   background-repeat: no-repeat;
   background-position: 50% 0; }
 
+.section_images {
+  background-color: #FAFAFA; }
+
 .section_images__navigation--container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -217,3 +231,31 @@ nav > ul {
 .section_images__list_item--sky-sports {
   grid-column: 1 / 4;
   grid-row: 3; }
+
+.footer {
+  background-color: #00ADEE; }
+
+.footer__main_image {
+  padding-block-start: 41px; }
+
+.footer__list_item {
+  display: inline; }
+
+.footer__navigation--container {
+  padding-block-start: 11px; }
+
+.footer__main_image {
+  margin-inline-start: 20px; }
+
+.footer__list_item {
+  margin-inline-start: 20px; }
+
+.footer__navigation_link--container > li > a {
+  color: white; }
+
+.footer__navigation_link--container {
+  display: flex;
+  justify-content: space-between;
+  padding-block-start: 34px;
+  padding-block-end: 45px;
+  margin-inline-end: 20px; }
