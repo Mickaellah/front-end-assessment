@@ -1,11 +1,18 @@
 body {
   margin: 0;
   font-family: "Lato", 'Segoe UI', sans-serif;
+  color: #4f4f4f;
+}
+
+header {
+  color: #333333;
 }
 
 h2 {
   text-align: center;
   margin: 0;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 nav > ul {
