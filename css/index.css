@@ -91,11 +91,17 @@
 
 body {
   margin: 0;
-  font-family: "Lato", 'Segoe UI', sans-serif; }
+  font-family: "Lato", 'Segoe UI', sans-serif;
+  color: #4f4f4f; }
+
+header {
+  color: #333333; }
 
 h2 {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold; }
 
 nav > ul {
   list-style: none;
@@ -108,10 +114,7 @@ a {
 .section_user_friendly {
   text-align: center;
   margin: 0;
-  font-family: "Lato", 'Segoe UI', sans-serif;
-  background-image: url("../img/bg_friendly_user_interface-small.png");
-  background-repeat: no-repeat;
-  background-position: 0% 0%; }
+  font-family: "Lato", 'Segoe UI', sans-serif; }
 
 .section_user_friendly__header {
   display: flex;
@@ -152,8 +155,9 @@ a {
 
 .features__heading {
   padding-block-end: 52px;
-  margin: 0;
-  padding-block-start: 42px; }
+  padding-block-start: 42px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px; }
 
 .features__list_item {
   padding-block-start: 48px;
@@ -259,3 +263,6 @@ a {
   padding-block-start: 34px;
   padding-block-end: 45px;
   margin-inline-end: 20px; }
+
+.footer__navigation_link--container > .footer__list_item {
+  font-weight: bold; }
