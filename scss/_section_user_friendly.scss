@@ -2,14 +2,19 @@
   text-align: center;
   margin: 0;
   font-family: "Lato", 'Segoe UI', sans-serif;
+  background-image: url("../img/bg_friendly_user_interface.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
 
 }
+
 
 
 .section_user_friendly__header {
   display: flex;
   flex-direction: column-reverse;
-  margin: $margin;
 
 }
 
@@ -44,6 +49,11 @@
   font-weight: bold;
   margin-block-start: 25px;
   text-decoration: none;
+}
+
+.section_user_friendly__link {
+  margin: 0;
+  padding-block-end: 32px;
 }
 
 .section_images__list_item--sky-sports {
