@@ -2,6 +2,10 @@
   background-color: #FAFAFA;
 }
 
+.section_images__header {
+  padding-block-start: 50px;
+}
+
 .section_images__navigation--container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
