@@ -273,7 +273,8 @@ a {
 @media (min-width: 1025px) {
   .features {
     background-color: #00ADEE;
-    color: #ffffff; }
+    color: #ffffff;
+    opacity: 1; }
   .features > * {
     max-width: 1114px;
     margin-inline-start: auto;
