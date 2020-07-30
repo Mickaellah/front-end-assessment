@@ -1,0 +1,23 @@
+@media (min-width: 1025px) {
+  .features {
+    background-color: #00ADEE;
+    color: #ffffff;
+  }
+
+  .features__heading {
+    color: #ffffff;
+  }
+
+  .features__navigation--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    column-gap: 10px;
+  }
+
+  .features__navigation--container > .features__list_item > svg {
+    fill: #ffffff;
+  }
+
+
+}
