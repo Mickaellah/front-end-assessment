@@ -3,7 +3,6 @@
 }
 
 .features__heading {
-  padding-block-end: 52px;
   padding-block-start: 42px;
   margin-inline-start: 20px;
   margin-inline-end: 20px;
@@ -11,46 +10,19 @@
 
 .features__list_item {
   padding-block-start: 48px;
-  padding-block-end: 50px;
   margin-inline-start: 25px;
   margin-inline-end: 24px;
   text-align: center;
 }
 
-.features__list_item--video {
-  background-image: url("../img/icon_video_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+.features__list_item > svg {
+  fill: #00ADEE;
 }
 
-.features__list_item--notification {
-  background-image: url("../img/icon_bell_ringing_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
 
-.features__list_item--hd {
-  background-image: url("../img/icon_hd_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
-.features__list_item--flag {
-  background-image: url("../img/icon_flag_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
-
-.features__list_item--tent {
-  background-image: url("../img/icon_tent_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-}
 
 .features__list_item--graph {
-  background-image: url("../img/icon_graph_blue.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+  padding-block-end: 50px;
 }
 
 
