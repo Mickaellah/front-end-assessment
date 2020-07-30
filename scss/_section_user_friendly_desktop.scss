@@ -1,8 +1,22 @@
 @media (min-width: 1025px) {
-  .section_user_friendly__header,
-  .section_user_friendly__description,
-  .section_user_friendly__link {
+  .section_user_friendly {
+    max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    background-position: -10% 90%;
+  }
+
+  .section_user_friendly > * {
+    max-width: 546px;
+    text-align: start;
+  }
+
+  .section_user_friendly__heading {
+    text-align: start;
+  }
+
+  .section_user_friendly__link {
+    text-align: start;
+    margin-inline-start: 20px;
   }
 }
