@@ -277,7 +277,7 @@ a {
     fill: #ffffff; } }
 
 @media (min-width: 1025px) {
-  .footer {
+  .section_images__navigation--container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; } }
+    justify-content: space-between; } }
