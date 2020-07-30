@@ -4,6 +4,12 @@
     color: #ffffff;
   }
 
+  .features > * {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
   .features__heading {
     color: #ffffff;
   }
@@ -13,6 +19,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     column-gap: 10px;
+  }
+
+  .features__list_item {
+    text-align: start;
   }
 
   .features__navigation--container > .features__list_item > svg {

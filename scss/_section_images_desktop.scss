@@ -1,4 +1,10 @@
 @media (min-width: 1025px) {
+  .section_images > * {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+
   .section_images__navigation--container {
     display: flex;
     flex-direction: row;
