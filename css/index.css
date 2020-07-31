@@ -114,7 +114,6 @@ a {
 .section_user_friendly {
   text-align: center;
   margin: auto;
-  height: 930px;
   font-family: "Lato", 'Segoe UI', sans-serif;
   background-image: url("../img/bg_friendly_user_interface.png");
   width: 100%;
@@ -122,7 +121,7 @@ a {
   background-size: 1600px;
   background-position-x: 50%;
   background-position-y: 15%;
-  padding-block-end: 80px; }
+  padding-block-end: 570px; }
 
 .section_user_friendly__header {
   display: flex;
@@ -260,15 +259,22 @@ a {
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    background-position: -10% 90%; }
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-position: calc(50% + 19rem);
+    padding: 0;
+    padding-block-start: 171px;
+    padding-block-end: 171px; }
   .section_user_friendly > * {
     max-width: 546px;
     text-align: start; }
   .section_user_friendly__heading {
     text-align: start; }
+  .section_user_friendly__category {
+    margin: 0;
+    margin-inline-start: 20px; }
   .section_user_friendly__link {
-    text-align: start;
-    margin-inline-start: 20px; } }
+    margin-inline-start: 20px;
+    margin-block-start: 48px; } }
 
 @media (min-width: 1025px) {
   .features {
