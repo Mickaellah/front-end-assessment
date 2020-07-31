@@ -284,7 +284,8 @@ a {
     color: #ffffff;
     opacity: 1;
     background-image: url("../img/background_blue_rectangles.svg");
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: bottom left; }
   .features > * {
     max-width: 1114px;
     margin-inline-start: auto;
