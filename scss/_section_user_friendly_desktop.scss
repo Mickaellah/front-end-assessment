@@ -3,7 +3,11 @@
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    background-position: -10% 90%;
+    background-image: url("../img/bg_friendly_user_interface.png");
+    background-position: calc(50% + 19rem);
+    padding: 0;
+    padding-block-start: 171px;
+    padding-block-end: 171px;
   }
 
   .section_user_friendly > * {
@@ -15,8 +19,13 @@
     text-align: start;
   }
 
-  .section_user_friendly__link {
-    text-align: start;
+  .section_user_friendly__category {
+    margin: 0;
     margin-inline-start: 20px;
+  }
+
+  .section_user_friendly__link {
+    margin-inline-start: 20px;
+    margin-block-start: 48px;
   }
 }
