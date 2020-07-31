@@ -276,7 +276,8 @@ a {
     margin-inline-start: 20px; }
   .section_user_friendly__link {
     margin-inline-start: 20px;
-    margin-block-start: 48px; } }
+    margin-block-start: 48px;
+    padding: 0; } }
 
 @media (min-width: 1025px) {
   .features {
