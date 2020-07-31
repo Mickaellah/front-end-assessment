@@ -3,5 +3,41 @@
     max-width: 1114px;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+
+  // .footer__navigation--container {
+  //   display: flex;
+  //   order: 3;
+
+
+  // }
+
+  // .footer__navigation_link--container > li {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   order: 2;
+  // }
+
+
+  .footer__navigation_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer__navigation--container {
+    margin-block-start: 40px;
+  }
+
+  .footer__navigation_link--container {
+    margin-block-start: 20px;
+    margin-inline-end: 17rem;
+  }
+
+
 }
