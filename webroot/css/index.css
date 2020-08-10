@@ -252,7 +252,8 @@ a {
   padding-block-start: 34px;
   padding-block-end: 45px;
   padding-inline-start: 0;
-  margin-inline-end: 20px; }
+  margin-inline-end: 20px;
+  margin-block-end: auto; }
 
 .footer__navigation_link--container > .footer__list_item {
   font-weight: bold; }
