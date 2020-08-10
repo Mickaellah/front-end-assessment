@@ -314,6 +314,8 @@ a {
     justify-content: space-between; } }
 
 @media (min-width: 1025px) {
+  .footer:hover {
+    transform: scaleY(1.03); }
   .footer > * {
     max-width: 1114px;
     margin-inline-start: auto;
@@ -329,4 +331,5 @@ a {
     margin-block-start: 40px; }
   .footer__navigation_link--container {
     margin-block-start: 20px;
-    margin-inline-end: 17rem; } }
+    margin-inline-end: 17rem;
+    margin-block-end: 0; } }
