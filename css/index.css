@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .masthead {
   margin: 0;
   background-color: #f4f6f9; }
@@ -303,7 +304,9 @@ a {
   .features__list_item {
     text-align: start; }
   .features__navigation--container > .features__list_item > svg {
-    fill: #ffffff; } }
+    fill: #ffffff; }
+  .features__list_item > p::before {
+    content: "• "; } }
 
 @media (min-width: 1025px) {
   .section_images > * {
