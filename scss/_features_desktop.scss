@@ -27,13 +27,18 @@
 
   .features__list_item {
     text-align: start;
-    // list-style: disc;
   }
 
 
   .features__navigation--container > .features__list_item > svg {
     fill: #ffffff;
   }
+
+  .features__list_item > p::before {
+    content: "• ";
+  }
+
+
 
 
 }
