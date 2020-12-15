@@ -1,82 +1,66 @@
-# Front-end assessment
+# Country Quiz
 
-A mockup-to-website example to be used as an assessment
+## Table of Contents
 
-## Getting started
+-   [Overview](#overview)
+-   [Built With](#built-with)
+-   [What I did](#what-I-did)
+-   [How to use](#how-to-use)
+-   [Contact](#contact)
 
-- Fork this repo to your own github account
-- Clone your github account version of the repo (e.g. `STUDENT_NAME/front-end-assessment` ) to your computer.
-- Work in your `main` branch
+<!-- OVERVIEW -->
 
-## The design
+## Overview
 
-I'd recommend downloading the Figma App if you haven't already.
+![screenshot](./front-end-assessment.jpg)
+![screenshot](./front-end-assessment-footer.jpg)
 
-### On Figma.com
+### Built With
 
-You can [find the mockup on Figma](https://www.figma.com/file/SC3HqLUP9hGBfn93mIwxkS/Sports-App-homepage-Responsive-Revised)
+-   [Html](https://html.com/)
+-   [Css](https://w3.org/Style/CSS/Overview.en.html)
+-   [Sass](https://sass-lang.com/)
 
-### As a `.fig` file
+## What I did
 
-You can [find the `.fig` file in the source folder of this repo](source-materials/sports-app.fig).
+In this project, I work with html, css and sass to create this sport app page. This site is talking about sports. This is all built with html, css and sass. Instead of working with css to style this page, I used sass and compile it into css by installing node modules. To do that you need to open a terminal from your vs code or from the powershell, those are all good.
 
-Open the `.fig` in the Figma App, or import it/drag it into the Figma.com workspace in your browser.
+```bash
+# Install node-modules
+$ npm install node-modules
 
-## Resources
+# Remove the test attribute from the script attribute in package.json file, and replace it with something like:
+$ css: node-sass scss/index.scss -o webroot/css,
+$ css:watch: npm run css && node-sass scss -w -o webroot/css
 
-I've extracted all the images in multiple formats, and placed them in the `source-material/imagery` folder.
+# Put quote arround css like "css": "node-sass scss/index.scss -o webroot/css" and the same with "css:watch".
 
-So too with downloading the fonts. Have a look in the `source-material/fonts` folder.
+# Compile it into css
+$ npm run css:watch
+```
 
-## Development
+## How To Use
 
-The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
+<!-- Example: -->
 
-## Requirements
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-Your work on the site header, and masthead will be the primary focus of this assessment.
-i.e. you must first deliver these two elements, so that they can be marked.
+```bash
+# Clone this repository
+$ git clone https://github.com/your-user-name/your-project-name
 
-The rest of the components of the site, we'll do later as an exercise.
+# Install dependencies
+$ npm install
 
-### Marking
+# Run the app
+$ npm start
 
-Your work will be marked on the following criteria:
+# Run and watch scss to compile css file. This one depends on what you used in your script attribute in the package.json file.
+$ npm run scss:watch
+```
 
-- Git
-  - Commits, commit messages, and their frequency (how often you commit)
-- Code
-  - All code should be:
-    - well-formatted and clean
-    - easy to understand
-    - self-documenting
-    - using comments when needed
-    - named well (e.g. class names should be relevant)
-  - HTML
-    - Use of HTML elements
-    - Accessible
-  - CSS
-    - Well-structured and easy to find relevant files
-    - Good / consistent naming conventions (methodologies)
-    - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
-- Results
-  - Should work in both Firefox and Chrome
-  - Responsive, supporting mobile and desktop devices
-  - Be accessible (You should use accessibility techniques we've covered in our courses)
-  - Accurate as possible (Your end product should look as similar to the designs as possible
+## Contact
 
-### Bonus marks
+-   Website [your-website.com](https://{your-web-site-link})
+-   GitHub [@Mickaella](https://github.com/Mickaellah/front-end-assessment)
 
-Bonus points will be awarded for code that uses:
-
-- a new technique you had to research while doing this assessment
-- elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality or delight)
-
-### To install your project in sass.
-
-Run this command to install your project `npm i`
-
-### Run css.
-
-If you want to watch you css file run this command `npm run css:watch`
